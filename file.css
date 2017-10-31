@@ -1,6 +1,6 @@
 body {
   text-align: center;
-  background-color: #CCC;
+  background-color: #dfcccc;
 }
 h1 {
   color: red;
@@ -25,24 +25,37 @@ button {
   display: flex;
   justify-content: space-between;
 }
-form {
+/*form {
   background-color: white;
   color: black;
   height: 50%;
   padding-top: 50px;
   /*display: inline-block;*/
   /*display: flex;
-  justify-content: flex-start !important;*/
+  justify-content: flex-start !important;
+}*/
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 #greenButton {
   background-color: green;
   color: white !important;
-  width: 20% !important;
+  width: 100% !important;
   border-radius: 0;
   height: 35px;
 }
 .hiddenForm {
   display: none;
+  background-color: white;
+  width: 45%;
+  margin-left: 25%;
+  padding: 2%;
+  text-align: left;
+  position: absolute;
+  margin-top: -283px;
+  margin-left: 29%;
 }
 #xButton {
   background-color: white;
@@ -51,4 +64,18 @@ form {
   border-radius: 0;
   height: 16px;
   width: 25px !important;
+  position: absolute; top: 0; right: 0;
+}
+input {
+  border: none;
+  border-bottom: solid;
+  width: 100%;
+  border-width: thin;
+  border-color: #CCC;
+}
+.available {
+
+}
+.reserved {
+  background-color: green;
 }

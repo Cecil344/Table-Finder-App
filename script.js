@@ -4,7 +4,6 @@ console.log("Hi");
 $("#button1").click(function(){
   $(".hiddenForm").show();
 });
-
 $("#xButton").click(function(){
   $(".hiddenForm").hide();
 });
