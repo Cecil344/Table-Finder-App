@@ -1,14 +1,31 @@
 $(document).ready(function() {
 console.log("Hi");
 
-$("#button1").click(function(){
+// var element = "";
+
+$("button").click(function(){
   $(".hiddenForm").show();
+  // element = $(this);
 });
 $("#xButton").click(function(){
   $(".hiddenForm").hide();
 });
+$("#saveButton").click(function(){
+  $(".hiddenForm").hide();
+});
+
+$("#saveButton").click(function(){
+  $(this).removeClass("available");
+});
+$("#saveButton").click(function(){
+  $(this).addClass("reserved");
+});
 
 
+// $("#saveButton").on("click", function(){
+//   $(".hiddenForm").hide();
+//   $(this).toggleClass("reserved");
+// });
 
 
 
@@ -18,4 +35,4 @@ $("#xButton").click(function(){
 
 
 //end of jQuery thing that needs to be at the bottom
-})
+});

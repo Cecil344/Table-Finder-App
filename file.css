@@ -39,10 +39,10 @@ button {
   flex-direction: column;
   align-items: left;
 }
-#greenButton {
+#saveButton {
   background-color: green;
-  color: white !important;
-  width: 100% !important;
+  color: white;
+  width: 100%;
   border-radius: 0;
   height: 35px;
 }
@@ -59,11 +59,11 @@ button {
 }
 #xButton {
   background-color: white;
-  color: black !important;
-  width: 20% !important;
+  color: black;
+  width: 20%;
   border-radius: 0;
   height: 16px;
-  width: 25px !important;
+  width: 25px;
   position: absolute; top: 0; right: 0;
 }
 input {
@@ -73,9 +73,8 @@ input {
   border-width: thin;
   border-color: #CCC;
 }
-.available {
-
-}
 .reserved {
-  background-color: green;
+  background-color: black;
+}
+.available {
 }
